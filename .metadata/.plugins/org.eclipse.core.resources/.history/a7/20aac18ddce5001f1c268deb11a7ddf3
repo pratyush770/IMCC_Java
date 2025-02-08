@@ -1,0 +1,26 @@
+package pkgOrgStructure;  // name of package
+
+public class EmployeeDemo 
+{
+    public static void main(String[] args) 
+    {   	
+        Manager m = new Manager("Pratyush Majumdar", 1, 100000);
+        Developer d = new Developer("Saad Sayyed", 2, "Senior");
+        Tester t = new Tester("Om Lakade", 3, 100);
+
+        System.out.println("The manager details are as follows...");
+        System.out.println("Manager name is: " + m.getName());
+        System.out.println("Manager id is: " + m.getId());
+        System.out.println("The budget is: " + m.getBudget());
+        System.out.println();
+        System.out.println("The developer details are as follows...");
+        System.out.println("Developer name is: " + d.getName());
+        System.out.println("Developer id is: " + d.getId());
+        System.out.println("Developer position is: " + d.getPosition());
+        System.out.println();
+        System.out.println("The tester details are as follows...");
+        System.out.println("Tester name is: " + t.getName());
+        System.out.println("Tester id is: " + t.getId());
+        System.out.println("The number of testcases handled by the tester are: " + t.getNumTestCases());
+    }
+}

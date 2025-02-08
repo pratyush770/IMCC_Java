@@ -1,0 +1,26 @@
+package pkgInheritance;
+
+public class Dog {
+	private int tailLenght;  // private variable named litterSize
+	private boolean isTrained;  // private variable named gestationPeriod
+	
+	public int getTailLenght() {
+		return tailLenght;
+	}
+	
+	public void setTailLenght(int tailLenght) {
+		this.tailLenght = tailLenght;
+	}
+	
+	public boolean isTrained() {
+		return isTrained;
+	}
+	
+	public void setTrained(boolean isTrained) {
+		this.isTrained = isTrained;
+	}
+	
+	public void getTrained() {
+		System.out.println("Inside getTrained method");
+	}
+}

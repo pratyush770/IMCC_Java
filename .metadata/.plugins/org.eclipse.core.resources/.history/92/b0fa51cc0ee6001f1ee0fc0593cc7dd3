@@ -1,0 +1,17 @@
+package pkgOrgStructure;  // name of package
+
+public class EmployeeDemo 
+{
+    public static void main(String[] args) 
+    {   	
+        Manager m = new Manager("Pratyush Majumdar", 1, 100000);  // Manager object creation
+        Developer d = new Developer("Saad Sayyed", 2, "Senior");  // Developer object creation
+        Tester t = new Tester("Om Lakade", 3, 100);  // Tester object creation
+        
+        m.details();  // function to print details
+        System.out.println();
+        d.details();
+        System.out.println();
+        t.details();    
+    }
+}

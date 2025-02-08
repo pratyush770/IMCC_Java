@@ -1,0 +1,13 @@
+package pkgInheritance;
+
+public class InheritanceDemo {
+	public static void main (String [] args) {
+		Animal anObj = new Animal();  // create object of Animal class
+		Mammal mmObj = new Mammal();  // create object of Mammal class
+		anObj.details();  
+		mmObj.details();
+		Animal anObj1 = new Mammal();  // subclass constructor can be used to create superclass object
+		anObj1.details();  // details method of mammal class is called
+//		Mammal mmObj1 = new Animal();  // this won't work
+	}
+}

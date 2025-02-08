@@ -1,0 +1,18 @@
+package pkgOrgStructure;  // name of package
+
+public class Tester extends Employee {  // IS-A hierarchy
+    private int numTestCases;  // instance variables
+
+    public Tester(String name, int id, int numTestCases) {  // parameterized constructor
+        super(name, id);  // calling variables from super class
+        this.numTestCases = numTestCases;
+    }
+
+	public int getNumTestCases() {  // getter method
+		return numTestCases;
+	}
+
+	public void setNumTestCases(int numTestCases) {  // setter method
+		this.numTestCases = numTestCases;
+	}    
+}

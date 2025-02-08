@@ -1,0 +1,98 @@
+package pkgOrgStructure;  // name of package
+
+public class Employee {
+//	public String name;  // instance variables
+//	public int id;
+//	
+//	public Employee(String name, int id) {  // parameterized constructor
+//		this.name = name;
+//	    this.id = id;
+//	}
+		
+	private int empId, empNm, empAge, empAadharCrd, empSal, empContactNbr, empExp;
+	private String empPanCrd, empDept;
+		
+	public Employee(int id, int num, int age, String panCard, int aadharCard, String dept, int sal, int cno, int exp) {
+		this.empId = this.setEmpId(id);
+		this.empNm = this.setEmpNm(num);
+		this.empAge = this.setEmpAge(age);
+		this.empPanCrd = this.setEmpPanCrd(panCard);
+		this.empAadharCrd = this.setEmpAadharCrd(aadharCard);
+		this.empDept = this.setEmpDept(dept);
+		this.empSal = this.setEmpSal(sal);
+		this.empContactNbr = this.setEmpContactNbr(cno);
+		this.empExp = this.setEmpExp(exp);
+	}
+		
+	public int getEmpId() {
+		return empId;
+	}
+		
+	public int setEmpId(int empId) {
+		return this.empId = empId;
+	}
+		
+	public int getEmpNm() {
+		return empNm;
+	}
+		
+	public int setEmpNm(int empNm) {
+		return this.empNm = empNm;
+	}
+		
+	public int getEmpAge() {
+		return empAge;
+	}
+		
+	public int setEmpAge(int empAge) {
+		return this.empAge = empAge;
+	}
+		
+	public String getEmpPanCrd() {
+		return empPanCrd;
+	}
+		
+	public String setEmpPanCrd(String empPanCrd) {
+		return this.empPanCrd = empPanCrd;
+	}
+		
+	public int getEmpAadharCrd() {
+		return empAadharCrd;
+	}
+		
+	public int setEmpAadharCrd(int empAadharCrd) {
+		return this.empAadharCrd = empAadharCrd;
+	}
+		
+	public String getEmpDept() {
+		return empDept;
+	}
+		
+	public String setEmpDept(String empDept) {
+		return this.empDept = empDept;
+	}
+		
+	public int getEmpSal() {
+		return empSal;
+	}
+		
+	public int setEmpSal(int empSal) {
+		return this.empSal = empSal;
+	}
+		
+	public int getEmpContactNbr() {
+		return empContactNbr;
+	}
+		
+	public int setEmpContactNbr(int empContactNbr) {
+		return this.empContactNbr = empContactNbr;
+	}
+		
+	public int getEmpExp() {
+		return empExp;
+	}
+		
+	public int setEmpExp(int empExp) {
+		return this.empExp = empExp;
+	}	
+}

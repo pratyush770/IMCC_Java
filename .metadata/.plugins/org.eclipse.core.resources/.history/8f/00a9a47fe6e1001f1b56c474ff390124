@@ -1,0 +1,23 @@
+package pkgPolymorphism;
+import java.util.*;
+
+public class PolymorphismDemo {
+	public static void main(String [] args)
+	{
+		String chc;
+		Printer prntObj = new Printer();
+		System.out.print("Enter YES if you want a colour print else enter NO: ");
+		Scanner sc = new Scanner(System.in);
+		chc = sc.next();
+		chc = chc.toLowerCase();
+		if (chc.equalsIgnoreCase("yes")) {
+			prntObj.printPaper(true);
+		}
+		else if(chc.equalsIgnoreCase("no")) {
+			prntObj.printPaper();
+		}
+		else {
+			System.out.println("Your input does not match");
+		}
+	}
+}

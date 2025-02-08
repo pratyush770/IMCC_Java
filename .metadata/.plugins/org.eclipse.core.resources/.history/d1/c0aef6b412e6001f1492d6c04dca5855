@@ -1,0 +1,17 @@
+package pkgOrgStructure;  // name of package
+
+public class Manager extends Employee {  // IS-A hierarchy
+//    private int budget;  // instance variables
+//
+//    public Manager(String name, int id, int budget) {  // parameterized constructor
+//        super(name, id);  // calling variables from super class
+//        this.budget = budget;
+//    }
+//
+//	public void details() {
+//		System.out.println("The manager details are as follows...");  // display manager details
+//		System.out.println("Manager name is: " + name);
+//        System.out.println("Manager id is: " + id);
+//        System.out.println("The budget is: " + this.budget);
+//	}
+}

@@ -1,0 +1,11 @@
+package pkgOrgStructure;
+
+public class EmployeeDemo {
+    public static void main(String[] args) {
+        Manager manager = new Manager("John Doe", 1, 100000);
+        Tester tester = new Tester("Jane Doe", 2, 100);
+
+        System.out.println("Manager: " + manager.getName() + ", ID: " + manager.getId() + ", Budget: " + manager.getBudget());
+        System.out.println("Tester: " + tester.getName() + ", ID: " + tester.getId() + ", Test Cases: " + tester.getNumTestCases());
+    }
+}

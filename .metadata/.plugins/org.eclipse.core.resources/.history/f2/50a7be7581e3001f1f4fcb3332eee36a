@@ -1,0 +1,33 @@
+package pkgInheritance;
+public class Mammal extends Animal{  // inherits Animal class
+	
+	public Mammal() {  // non parameterized constructor
+		System.out.println("Mammmal constructor");	
+	}
+	
+	private int litterSize;  // private variable named litterSize
+	private String gestationPeriod;  // private variable named gestationPeriod
+	
+	public int getLitterSize() {  // getter method
+		return litterSize;
+	}
+	
+	public void setLitterSize(int litterSize) {  // setter method
+		this.litterSize = litterSize;
+	}
+	
+	public String getGestationPeriod() {  // getter method
+		return gestationPeriod;
+	}
+	
+	public void setGestationPeriod(String gestationPeriod) {  // setter method
+		this.gestationPeriod = gestationPeriod;
+	}
+	
+//	public void details() {  // details method (This is overridden method)
+//		System.out.println("Age is :" + this.getAge());  // calling getter method from Animal class
+//		System.out.println("Gender is :" + this.getGender());
+//		System.out.println("Weight is :" + this.getWeight());
+//	}
+	super().detals()
+}

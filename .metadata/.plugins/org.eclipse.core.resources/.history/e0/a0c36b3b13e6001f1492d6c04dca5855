@@ -1,0 +1,17 @@
+package pkgOrgStructure;  // name of package
+
+public class Developer extends Employee{  // IS-A hierarchy
+	private String position;  // instance variables
+
+    public Developer(String name, int id, String position) {  // parameterized constructor
+        super(name, id);  // calling variables from super class
+        this.position = position;
+    }
+
+	public void details() {
+		System.out.println("The developer details are as follows...");  // display developer details
+        System.out.println("Developer name is: " + name);
+        System.out.println("Developer id is: " + id);
+        System.out.println("Developer position is: " + this.position);
+	}
+}

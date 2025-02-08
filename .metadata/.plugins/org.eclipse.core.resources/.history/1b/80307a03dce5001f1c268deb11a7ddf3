@@ -1,0 +1,18 @@
+package pkgOrgStructure;  // name of package
+
+public class Tester extends Employee {
+    private int numTestCases;  // instance variables
+
+    public Tester(String name, int id, int numTestCases) {  // parameterized constructor
+        super(name, id);
+        this.numTestCases = numTestCases;
+    }
+
+	public int getNumTestCases() {
+		return numTestCases;
+	}
+
+	public void setNumTestCases(int numTestCases) {
+		this.numTestCases = numTestCases;
+	}    
+}

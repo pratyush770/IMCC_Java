@@ -1,0 +1,18 @@
+package pkgOrgStructure;  // name of package
+
+public class Manager extends Employee {
+    private int budget;  // instance variables
+
+    public Manager(String name, int id, int budget) {  // parameterized constructor
+        super(name, id);
+        this.budget = budget;
+    }
+
+	public int getBudget() {  // getter method
+		return budget;
+	}
+
+	public void setBudget(int budget) {  // setter method
+		this.budget = budget;
+	}
+}

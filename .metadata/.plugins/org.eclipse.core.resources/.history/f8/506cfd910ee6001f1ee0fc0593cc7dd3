@@ -1,0 +1,14 @@
+package pkgOrgStructure;  // name of package
+
+public class EmployeeDemo 
+{
+    public static void main(String[] args) 
+    {   	
+        Manager m = new Manager("", 0, 0);  // Manager object creation
+        Developer d = new Developer("", 0, "");  // Developer object creation
+        Tester t = new Tester("", 0, 0);  // Tester object creation
+        m.details();
+        d.details();
+        t.details();    
+    }
+}

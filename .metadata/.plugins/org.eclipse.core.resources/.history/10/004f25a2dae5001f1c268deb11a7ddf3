@@ -1,0 +1,18 @@
+package pkgOrgStructure;
+
+public class Developer extends Employee{
+	private String dname;
+
+    public Developer(String name, int id, String dname) {
+        super(name, id);
+        this.dname = dname;
+    }
+
+	public String getDname() {
+		return dname;
+	}
+
+	public void setDname(String dname) {
+		this.dname = dname;
+	}
+}

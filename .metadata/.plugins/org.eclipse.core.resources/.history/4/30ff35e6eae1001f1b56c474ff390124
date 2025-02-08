@@ -1,0 +1,22 @@
+package pkgInheritance;
+
+public class Mammal {
+	private int litterSize;  // private variable named litterSize
+	private String gestationPeriod;  // private variable named gestationPeriod
+	
+	public int getLitterSize() {  // getter method
+		return litterSize;
+	}
+	
+	public void setLitterSize(int litterSize) {  // setter method
+		this.litterSize = litterSize;
+	}
+	
+	public String getGestationPeriod() {  // getter method
+		return gestationPeriod;
+	}
+	
+	public void setGestationPeriod(String gestationPeriod) {  // setter method
+		this.gestationPeriod = gestationPeriod;
+	}
+}
