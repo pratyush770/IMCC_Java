@@ -1,0 +1,28 @@
+package pkgParameterPassing;
+
+public class CharacterUtility {
+//	public void countVowels(String str) {
+//		int count = 0;
+//		for (int i=0;i<=str.length();i++) {
+//			if (str.charAt(i) == "a") {
+//				count++;
+//			}
+//		}
+//	}
+	
+	public static void countOccurence(char ch, String str) {
+		int count = 0;
+		for (int i=0;i<str.length();i++) {
+			if (str.charAt(i) == ch) {
+				count++;
+			}
+		}
+		System.out.println(count);
+	}
+	
+	public static void main(String [] args) {
+		countOccurence('l', "Hello");
+		
+	}
+
+}
