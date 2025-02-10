@@ -1,0 +1,9 @@
+package pkgParameterPassing;
+
+public class ArgumentPassingDemo {
+	public static void main(String [] args) {
+		Student s = new Student("2401121", "Pratyush", "FY-MCA", "Sem2", 90, 90, 90, 90, 90, 90, "A");
+		
+	}
+
+}

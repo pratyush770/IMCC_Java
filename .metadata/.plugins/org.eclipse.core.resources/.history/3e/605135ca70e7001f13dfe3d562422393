@@ -1,0 +1,12 @@
+package pkgParameterPassing;
+import java.util.*;
+
+public class FinalVariableExample {
+	public final int TOTAL_TICKETS;
+	public int tktsAvailable = 0;
+	
+	public FinalVariableExample(int totTkc) {
+		this.TOTAL_TICKETS = totTkc;
+	}
+
+}

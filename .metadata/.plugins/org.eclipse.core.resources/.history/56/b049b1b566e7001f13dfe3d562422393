@@ -1,0 +1,20 @@
+package pkgInheritance;
+
+public class ParameterPassing {
+	public void sum(int x, int y, int z) {
+		int result = x + y + z;
+		System.out.println(result);  // 45
+	}	
+	public static void main(String [] args) 
+	{
+		int i = 10;
+		int j = 15;
+		int k = 20;
+		
+		sum(i, j, k);
+		
+//		int x = 10;
+//		int y = 15;
+//		int z = 20;
+	}
+}
