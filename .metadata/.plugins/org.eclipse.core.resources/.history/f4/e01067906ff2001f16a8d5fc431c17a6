@@ -1,0 +1,5 @@
+package pkgInterface;
+
+public class DemoInnerInterface {
+	public static void main(String [] args)
+}

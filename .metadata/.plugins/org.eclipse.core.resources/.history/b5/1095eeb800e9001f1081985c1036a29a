@@ -1,8 +1,0 @@
-package pkgParameterPassing;
-
-public class PQR extends ABC{
-	public void m1() {
-		System.out.println("Is this overriden?");
-	}
-
-}

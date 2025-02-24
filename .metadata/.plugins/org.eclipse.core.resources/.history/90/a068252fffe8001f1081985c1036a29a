@@ -1,7 +1,0 @@
-package pkgParameterPassing;
-
-public class ABC {
-	public final void m1() {
-		System.out.println("In m1");	
-	}
-}

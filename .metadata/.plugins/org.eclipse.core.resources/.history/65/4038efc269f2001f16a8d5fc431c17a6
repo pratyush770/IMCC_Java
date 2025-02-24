@@ -1,0 +1,10 @@
+package pkgInterface;
+
+public class Rectangle implements Shape{
+	public void drawShape(int no_of_sides) {
+//		System.out.println("Hello");
+	}
+	public static void main (String [] args) {
+		
+	}
+}

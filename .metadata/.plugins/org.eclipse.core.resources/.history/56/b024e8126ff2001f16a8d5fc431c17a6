@@ -1,0 +1,22 @@
+package pkgInterface;
+
+public class OuterB implements OuterClass.InnerInterface{
+	/**
+	 * Instance variables
+	 */
+	public int n, m;
+	/**
+	 * Initialize variables
+	 */
+	public OuterB(int n, int m) {
+		this.n = n;
+		this.m = m;
+	}
+	public void printValues() {
+		System.out.println("The value of n is: " + n);
+		System.out.println("The value of m is: " + m);
+	}
+	public void innerM1() {
+		System.out.println("This message comes from the implemented innerMi in OuterB class");
+	}
+}

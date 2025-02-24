@@ -1,0 +1,16 @@
+package pkgInterface;
+
+public class Rectangle implements Shape {
+	public Rectangle() {
+		System.out.println("Creating Rectangle class object");
+	}
+	/**
+	 * overriding
+	 */
+	public void drawShape(int no_of_sides) {
+
+	}
+	public static void main (String [] args) {
+		
+	}
+}

@@ -1,0 +1,14 @@
+package pkgInterface;
+
+/**
+ * This is an example of interface demonstration 
+ */
+public interface Shape {
+	public abstract void drawShape(int no_of_sides);  // abstract method 
+	public default void printShapeDetails() {
+		System.out.println("This is a shape");
+	} 
+	public static void aboutShape() {
+		System.out.println("This feature comes from Shape interface");
+	}
+}

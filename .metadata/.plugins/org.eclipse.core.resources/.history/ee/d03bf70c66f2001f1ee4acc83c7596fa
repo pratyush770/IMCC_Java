@@ -1,0 +1,30 @@
+package pkgParameterPassing;
+
+//public final class ABC {
+//	public void m1() {
+//		System.out.println("In m1");	
+//	}
+//	
+//	public void m2() {
+//		System.out.println("In m2");	
+//	}
+//	
+//	public void m3() {
+//		System.out.println("In m3");	
+//	}
+//}
+
+public interface PQR {
+	public abstract void printMethod();
+}
+
+public class ABC implements  {
+	public void printMethod() {
+		System.out.println("Hello World");
+	}
+	public static void main(String [] args) {
+		Square s = new Square();
+        s.printMethod();
+	}
+	
+}

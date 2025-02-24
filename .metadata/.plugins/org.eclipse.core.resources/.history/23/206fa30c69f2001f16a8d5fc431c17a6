@@ -1,0 +1,19 @@
+package pkgInterface;
+
+/**
+ * This is an example of an interface demonstration in java 
+ */
+public interface Shape {
+	/**
+	 * 
+	 * 
+	 * @param no_of_sides
+	 */
+	public abstract void drawShape(int no_of_sides);  // abstract method 
+	public default void printShapeDetails() {  // default method (can be overriden)
+		System.out.println("This is a shape");
+	} 
+	public static void aboutShape() {  // static method (cannot be overriden)
+		System.out.println("This feature comes from Shape interface");
+	}
+}

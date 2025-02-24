@@ -3,7 +3,7 @@ package pkgParameterPassing;
 // Call by value demonstration
 public class ArgumentPassingDemo {
 	public static void main(String [] args) {
-		// Using primtives
+		// Using primitives
 		Student s = new Student("2401121", "Pratyush", "FY-MCA", "Sem2", 90, 90, 90, 90, 90);  // Student object creation
 		Marksheet m = new Marksheet();  // Marksheet object creation
 		m.calculateGrade(s.course1, s.course2, s.course3, s.course4, s.course5);  // primitives are passed i.e. double

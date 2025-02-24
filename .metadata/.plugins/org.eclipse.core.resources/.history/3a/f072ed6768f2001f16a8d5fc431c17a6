@@ -1,0 +1,11 @@
+package pkgInterface;
+
+public interface Shape {
+	/**
+	 This is an example of interface demonstration
+	 */
+	public abstract void drawShape(int no_of_sides);  // abstract method 
+	public default void printShapeDetails( ) {
+		
+	} 
+}

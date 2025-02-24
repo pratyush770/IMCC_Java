@@ -1,0 +1,7 @@
+package pkgInterface;
+
+public class Rectangle implements Shape{
+	public void drawShape( ) {
+		
+	}
+}

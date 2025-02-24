@@ -1,0 +1,9 @@
+package pkgInterface;
+
+public class OuterClass {
+	int x,y;
+	public OuterClass(int x, int y) {
+		
+	}
+
+}

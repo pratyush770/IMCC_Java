@@ -1,0 +1,12 @@
+package pkgParameterPassing;
+
+public class Square implements ABC {
+	public void printMethod() {
+		System.out.println("Hello World");
+	}
+	public static void main(String [] args) {
+		Square s = new Square();
+        s.printMethod();
+	}
+	
+}

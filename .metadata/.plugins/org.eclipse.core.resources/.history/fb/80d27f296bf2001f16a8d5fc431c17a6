@@ -1,0 +1,13 @@
+package pkgInterface;
+
+public class Rectangle implements Shape {
+	public Rectangle(int) {
+		
+	}
+	public void drawShape(int no_of_sides) {
+
+	}
+	public static void main (String [] args) {
+		
+	}
+}

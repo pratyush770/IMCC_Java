@@ -1,0 +1,12 @@
+package pkgInterface;
+
+public class OuterB implements OuterClass.InnerInterface{
+	public int n, m;
+	public OuterB(int n, int m) {
+		this.n = n;
+		this.m = m;
+	}
+	public void printValues() {
+		
+	}
+}

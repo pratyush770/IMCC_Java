@@ -1,6 +1,0 @@
-package pkgParameterPassing;
-
-public class MyCharacterUtility extends CharacterUtility {
-	public final void countVowels(String str) {  // wont work since final method cannot be overriden
-	}
-}

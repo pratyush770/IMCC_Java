@@ -2,4 +2,5 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="pkgInheritance.Animal"/>
     <fullyQualifiedTypeName name="pkgParameterPassing.Marksheet"/>
+    <fullyQualifiedTypeName name="pkgInterface.OuterClass.InnerInterface"/>
 </qualifiedTypeNameHistroy>
