@@ -1,0 +1,16 @@
+package pkgInterface;
+
+	/*
+	 * Abstract class demo
+	 */
+public abstract class MyAbstractClass {
+	/*
+	 * abstract method (mention abstract keyword since this is an abstract class)
+	 */
+	public abstract void m1();  // abstract method (mention abstract keyword since this is an abstract class)
+	public void m2()  // normal method
+	{
+		System.out.println("This is m2");
+	}
+
+}

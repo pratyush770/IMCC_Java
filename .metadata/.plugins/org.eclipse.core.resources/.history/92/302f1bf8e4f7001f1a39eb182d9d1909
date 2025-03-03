@@ -1,0 +1,18 @@
+package pkgInterface;
+	/*
+	 * Abstract class demo
+	 */
+public abstract class MyAbstractClass {
+	/*
+	 * abstract method (mention abstract keyword since this is an abstract class)
+	 */
+	public abstract void m1(); 
+	/*
+	 * non abstract concrete method named m2()
+	 */
+	public void m2() 
+	{
+		System.out.println("This is m2");
+	}
+
+}

@@ -1,0 +1,32 @@
+package pkgInterface;
+
+public class Rectangle extends Figure implements Shape {
+	public Rectangle() {
+		System.out.println("Creating Rectangle class object");
+	}
+	/**
+	 * Overriding abstract method drawShape 
+	 */
+	public void drawShape(int no_of_sides) {
+		System.out.println("This is drawShape implementation from Rectangle class");
+		System.out.println("This shape has " + no_of_sides + " sides");
+	}
+	/**
+	 * Overriding default method printShapeDetails
+	 */ 
+	public void printShapeDetails() {
+		System.out.println("This message is from Rectangle class");
+	}
+	/*
+	 * overriding area abstract methods
+	 */
+	public void area() {
+		System.out.println("");
+	}
+	public void volume() {
+		System.out.println("");
+	}
+	public void draw() {
+		System.out.println("");
+	}
+}

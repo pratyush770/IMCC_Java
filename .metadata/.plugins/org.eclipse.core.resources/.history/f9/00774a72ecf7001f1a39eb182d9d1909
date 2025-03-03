@@ -1,0 +1,8 @@
+package pkgInterface;
+
+public interface Shade {  // if this is an abstract class, then we can't extend it
+	public abstract void draw();  // abstract class
+	public abstract void solidFill();
+	public abstract void edgeFill();
+	public abstract void roundedCorners();
+}

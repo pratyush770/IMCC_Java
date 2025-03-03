@@ -1,0 +1,5 @@
+package pkgInterface;
+
+public abstract class Shade {
+
+}

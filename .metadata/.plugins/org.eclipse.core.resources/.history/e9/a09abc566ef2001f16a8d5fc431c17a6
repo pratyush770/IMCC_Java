@@ -1,7 +1,0 @@
-package pkgInterface;
-
-public class OuterClass {
-	int x,y;
-	public 
-
-}

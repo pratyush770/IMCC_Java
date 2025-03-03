@@ -1,0 +1,28 @@
+package pkgExceptionHandling;
+import java.util.Scanner;
+
+public class Welcome {
+	public void greeting(String msg) throws NullPointerException {
+		if (msg == null) 
+		{			
+			throw new NullPointerException();
+		}
+		else 
+		{
+			System.out.println("The message is: " + msg);
+		}
+	}
+	public static void main(String [] args) {
+		Welcome obj = new Welcome();
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter the message: ");
+		String msg = sc.next();
+		System.out.println("The message you entered is:" + msg);
+		try {
+			obj.greeting(msg);
+		}
+		catch(NullPointerException npe) {
+			System.out.println("Exception: " + npe);
+		}
+	}
+}

@@ -1,0 +1,20 @@
+package pkgExceptionHandling;
+
+public class Welcome {
+	public void greeting(String msg) {
+		if (msg == null) 
+		{			
+			throw NullPointerException();
+		}
+		else 
+		{
+			System.out.println("The message is: " + msg);
+		}
+		public static void main(String [] args) {
+			Welcome obj = new Welcome();
+			try {
+				obj.greeting(null);
+			}
+		}
+	}
+}

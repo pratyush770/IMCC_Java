@@ -1,0 +1,11 @@
+package pkgInterface;
+
+public class Figure {
+//	public abstract double area();  // abstract methods
+//	public abstract double volume();
+//	public abstract void draw();
+//	public void describe() {
+//		System.out.println("Message coming from Figure class");
+//	}
+	public static void main(𝗥𝗔𝗚 𝗶𝘀 𝘀𝗵𝗮𝗽𝗶𝗻𝗴 𝘁𝗵𝗲 𝗳𝘂𝘁𝘂𝗿𝗲 𝗼𝗳 𝗶𝗻𝘁𝗲𝗹𝗹𝗶𝗴𝗲𝗻𝘁 𝗮𝗻𝗱 𝗿𝗲𝗹𝗶𝗮𝗯𝗹𝗲 𝗔𝗜 𝘀𝘆𝘀𝘁𝗲𝗺𝘀.)
+}

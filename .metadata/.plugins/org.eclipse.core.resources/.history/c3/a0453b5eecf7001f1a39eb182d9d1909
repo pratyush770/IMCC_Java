@@ -1,0 +1,8 @@
+package pkgInterface;
+
+public interface Shade {  // if this was an abstract class 
+	public abstract void draw();  // abstract class
+	public abstract void solidFill();
+	public abstract void edgeFill();
+	public abstract void roundedCorners();
+}

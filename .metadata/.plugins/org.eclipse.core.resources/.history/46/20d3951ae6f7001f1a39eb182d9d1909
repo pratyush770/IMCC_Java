@@ -1,0 +1,7 @@
+package pkgInterface;
+
+public class UseMyAbstract extends MyAbstractClass{  // abstract method must be overridden
+	public UseMyAbstract() {
+		System.out.println("");
+	}
+}

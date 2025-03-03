@@ -1,9 +1,0 @@
-package pkgInterface;
-
-public interface Shape {
-	/***
-	 
-	 ***/
-	public abstract void drawShape(int no_of_sides);  // abstract method 
-	public default printShapeDetails(Object obTemp) 
-}

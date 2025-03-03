@@ -1,0 +1,8 @@
+package pkgInterface;
+
+public class MyAbstractClassDemo {
+	public static void main(String [] args){
+//		MyAbstractClass obj = new MyAbstractClass();  // abstract classes cannot have objects
+//		obj.m2();
+	}
+}

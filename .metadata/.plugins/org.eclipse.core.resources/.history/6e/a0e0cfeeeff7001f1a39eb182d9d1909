@@ -1,0 +1,11 @@
+package pkgInterface;
+
+public class Figure {
+//	public abstract double area();  // abstract methods
+//	public abstract double volume();
+//	public abstract void draw();
+//	public void describe() {
+//		System.out.println("Message coming from Figure class");
+//	}
+	public st
+}

@@ -1,0 +1,10 @@
+package pkgExceptionHandling;
+import java.util.Random;
+
+public class RandomDivisionEx {
+	/**
+	 * This method generates two random numbers and performs division on them.
+	 * In case of exception, it is handled by try-catch block.
+	 */
+	public int randomDiv()
+}

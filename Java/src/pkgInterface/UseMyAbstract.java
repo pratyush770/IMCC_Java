@@ -1,0 +1,21 @@
+package pkgInterface;
+
+public class UseMyAbstract extends MyAbstractClass{  // abstract method must be overridden (similar to interface)
+	/**
+	 * Constructor creation
+	 */
+	public UseMyAbstract() {
+		this("Hello");  // constructor overloading is also possible in an abstract class
+		System.out.println("UseMyAbstract object created");
+	}
+	public UseMyAbstract(String str) {
+		super(str);
+		System.out.println("This is overloaded constructor of UseMyAbstract");
+	}
+	/**
+	 * Overridden method
+	 */
+	public void m1() {
+		System.out.println("m1 from extending class");
+	}
+}
